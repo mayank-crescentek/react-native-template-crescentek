@@ -1,4 +1,4 @@
-package com.myreactnativetemplate
+package com.{{packageName}}
 
 import android.app.Application
 import com.facebook.react.PackageList
