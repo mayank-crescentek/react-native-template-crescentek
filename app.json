@@ -1,4 +1,4 @@
 {
-  "name": "myReactNativeTemplate",
-  "displayName": "myReactNativeTemplate"
+  "name": "{{name}}",
+  "displayName": "{{name}}"
 }
