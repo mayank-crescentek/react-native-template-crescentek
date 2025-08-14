@@ -77,6 +77,104 @@ When you want to forcefully reload, for example to reset the state of your app, 
 
 You've successfully run and modified your React Native App. :partying_face:
 
+### Need to add .gitignore file to root folder
+
+Mentioning contails for .gitignore file just copy paste from here.
+
+```sh
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+# *.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifacts
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+
+# Expo
+.expo/*
+web-build/
+
+.env
+.vscode
+.yarn
+.yarnrc.yml
+android/app/release/app-release.aab
+android/app/release/app-release.apk
+android/app/release/output-metadata.json
+ios/customerMobileApp.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ios/Podfile.lock
+package-lock.json
+yarn.lock
+ios/.xcode.env.local
+android/Untitled
+android/app/release/baselineProfiles/0/app-release.dm
+android/app/release/baselineProfiles/1/app-release.dm
+android/app/release/release/app-release.apk
+android/app/release/release/output-metadata.json
+android/app/release/release/baselineProfiles/0/app-release.dm
+android/app/release/release/baselineProfiles/1/app-release.dm
+android/.kotlin
+```
+
+### For husky integration
+
+```sh
+npm install
+```
+
 ### Now what?
 
 - If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).

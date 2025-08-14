@@ -1,4 +1,4 @@
-package com.{{packageName}}
+package com.{{name}}
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

@@ -1,4 +1,4 @@
-package com.{{packageName}}
+package com.{{name}}
 
 import android.app.Application
 import com.facebook.react.PackageList

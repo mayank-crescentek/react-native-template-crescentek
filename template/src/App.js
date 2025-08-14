@@ -12,7 +12,7 @@ export default function App() {
         <StatusBar />
         <View>
           <Text1 variant={'heading1'} style={{ marginVertical: 7, marginHorizontal: 10 }}>
-            Test
+            Template
           </Text1>
         </View>
       </SafeAreaView>

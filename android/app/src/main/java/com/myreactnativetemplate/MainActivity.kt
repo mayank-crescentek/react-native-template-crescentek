@@ -1,4 +1,4 @@
-package com.{{packageName}}
+package com.myreactnativetemplate
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
