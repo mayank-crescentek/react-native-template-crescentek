@@ -104,7 +104,7 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-project.xcworkspace
+**/.xcode.env.local
 
 # Android/IntelliJ
 #
@@ -113,18 +113,17 @@ build/
 .gradle
 local.properties
 *.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+.kotlin/
 
 # node.js
 #
 node_modules/
 npm-debug.log
 yarn-error.log
-
-# BUCK
-buck-out/
-\.buckd/
-# *.keystore
-!debug.keystore
 
 # fastlane
 #
@@ -133,40 +132,31 @@ buck-out/
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
 
-*/fastlane/report.xml
-*/fastlane/Preview.html
-*/fastlane/screenshots
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
 
-# Bundle artifacts
+# Bundle artifact
 *.jsbundle
 
-# CocoaPods
-/ios/Pods/
+# Ruby / CocoaPods
+**/Pods/
+/vendor/bundle/
 
-# Expo
-.expo/*
-web-build/
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
 
-.env
-.vscode
-.yarn
-.yarnrc.yml
-android/app/release/app-release.aab
-android/app/release/app-release.apk
-android/app/release/output-metadata.json
-ios/customerMobileApp.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-ios/Podfile.lock
-package-lock.json
-yarn.lock
-ios/.xcode.env.local
-android/Untitled
-android/app/release/baselineProfiles/0/app-release.dm
-android/app/release/baselineProfiles/1/app-release.dm
-android/app/release/release/app-release.apk
-android/app/release/release/output-metadata.json
-android/app/release/release/baselineProfiles/0/app-release.dm
-android/app/release/release/baselineProfiles/1/app-release.dm
-android/.kotlin
+# testing
+/coverage
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 ```
 
 ### For husky integration

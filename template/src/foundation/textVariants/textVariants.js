@@ -1,6 +1,12 @@
+import { Platform } from 'react-native';
+
+export const boldFontFamily = Platform.OS === 'ios' ? 'Poppins' : 'Poppins-SemiBold';
+export const mediumFontFamily = Platform.OS === 'ios' ? 'Poppins' : 'Poppins-Medium';
+export const regularFontFamily = Platform.OS === 'ios' ? 'Poppins' : 'Poppins-Regular';
+
 export const textVariants = {
   heading: {
-    fontFamily: 'Poppins',
+    fontFamily: boldFontFamily,
     fontWeight: '900',
     fontSize: 22,
     lineHeight: 40,
@@ -8,7 +14,7 @@ export const textVariants = {
     color: 'black',
   },
   heading1: {
-    fontFamily: 'Poppins',
+    fontFamily: boldFontFamily,
     fontWeight: '900',
     fontSize: 18,
     lineHeight: 40,
@@ -16,7 +22,7 @@ export const textVariants = {
     color: 'red',
   },
   body: {
-    fontFamily: 'Poppins',
+    fontFamily: mediumFontFamily,
     fontWeight: '500',
     fontSize: 16,
     color: 'black',
