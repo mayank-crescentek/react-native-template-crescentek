@@ -90,6 +90,8 @@ DerivedData
 *.ipa
 *.xcuserstate
 **/.xcode.env.local
+**/.xcode.env
+ios/Podfile.lock
 
 # Android/IntelliJ
 #
@@ -109,6 +111,7 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
+package-lock.json
 
 # fastlane
 #
