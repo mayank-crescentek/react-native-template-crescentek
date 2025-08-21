@@ -21,7 +21,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 **/.xcode.env.local
-xcode.env
+**/.xcode.env
 ios/Podfile.lock
 
 # Android/IntelliJ
@@ -76,5 +76,3 @@ package-lock.json
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-package-lock.json
-package-lock.json
