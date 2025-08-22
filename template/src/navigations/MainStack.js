@@ -5,7 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 // Import your screens
 import Landing from '../screens/Landing';
-import Home from '../screens/Home';
+import BottomTabNavigator from './BottomNavigator';
 
 const Stack = createNativeStackNavigator();
 
@@ -19,7 +19,7 @@ export default function MainStack({ route }) {
         <Stack.Screen name="Landing" component={Landing} options={{ headerShown: false }} />
         <Stack.Screen
           name="Home"
-          component={Home}
+          component={BottomTabNavigator}
           options={{
             headerShown: false,
             gestureEnabled: false,
